@@ -1,0 +1,33 @@
+{
+  "name": "testnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukas-sgx/testnpm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukas-sgx/testnpm/issues"
+  },
+  "homepage": "https://github.com/lukas-sgx/testnpm#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
